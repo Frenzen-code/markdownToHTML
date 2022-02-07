@@ -29,15 +29,65 @@ h2 {
     font-family: 'Caveat', cursive;
 }
 
-.image-container {
+h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    padding: 50px;
+    text-align: center;
+    font-size: 40px
 
+    
+}
+
+.image-container {
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 img {
-    max-width: 1000x;
+    max-width: 800px;
     max-height: 1000px;
     border-radius: 50%;
+  }
+
+  table, th, td {
+      border : 1px solid black;
+    
+  }
+
+  table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+  }
+
+  td, th {
+      height : 30px;
+  }
+
+  li {
+      text-align: center;
+  }
+
+  ul {
+      list-style: none;
+      
+
+  }
+
+
+.funnyStory{
+    text-align: center;
+}
+
+  footer {
+      text-align: center;
+      margin-top: 100px;
+  }
+
+  table, footer, li, .funnyStory {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px
   }
